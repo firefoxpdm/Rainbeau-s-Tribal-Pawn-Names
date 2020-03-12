@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 
-	<name>[RF] Tribal Pawn Names [1.0]</name>
+	<name>[RF] Tribal Pawn Names [1.1]</name>
 	<author>Rainbeau Flambe</author>
-	<url>https://ludeon.com/forums/index.php?topic=46165</url>
-	<targetVersion>1.0.0</targetVersion>
-	<description>(Last update: 10/14/2018)
+	<url>https://github.com/firefoxpdm/Rainbeau-s-Tribal-Pawn-Names</url>
+	<supportedVersions>
+        <li>1.1</li>
+    </supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+	<description>(Last update: 2020-03-11)
+	
+Originally from https://ludeon.com/forums/index.php?topic=46165
 
 This mod overhauls tribal pawn naming. Why? Well, the tribal names in the game have always felt a bit... "off" to me. It's probably nothing more than my own unfamiliarity with the cultures from which the names are drawn, but I always thought they seemed a bit more "Spanish" than tribal.
 

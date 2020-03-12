@@ -1,4 +1,4 @@
-﻿using Harmony;
+﻿using HarmonyLib;
 using RimWorld;
 using System;
 using System.Collections.Generic;
@@ -13,7 +13,7 @@ namespace RTPN_Code {
 	internal static class RTPN_Initializer {
 		private static Dictionary<PawnNameCategory, RTPN_NameBank> banks;
 		static RTPN_Initializer() {
-			HarmonyInstance harmony = HarmonyInstance.Create("net.rainbeau.rimworld.mod.pawnnames");
+			Harmony harmony = new Harmony("net.rainbeau.rimworld.mod.pawnnames");
 			harmony.PatchAll( Assembly.GetExecutingAssembly() );
 			LongEventHandler.QueueLongEvent(Setup, "LibraryStartup", false, null);
 		}
